@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>СОФТ</title>
+  <meta name="description" content="Pixel Plex" />
+  <meta name="robots" content="index, follow" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/libs.min.css" />  
+
+  
+</head>
+
+<body>
+  <!--<header class="container">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.jpg" alt="PIXELPLEX" title="PIXELPLEX" width="166" height="22" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">          
+            <li class="nav-item"><a class="nav-link" href="#">Увеличиваем конверсию</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Принцип работы</a></li>   
+            <li class="nav-item"><a class="nav-link" href="#">№1 в Беларуси</a></li>          
+            <li class="nav-item"><a class="nav-link" href="#">О маячке</a></li>          
+            <li class="nav-item"><a class="nav-link" href="#">Ваш бизнес</a></li>          
+            <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>          
+          </ul>
+        </div>
+      </nav>
+
+    </div>     
+  </header>-->
+
+
+  <!--<section class="container how-to-increase-zero">
+    <div class="row">
+      <div class="col-xl-4 iphone">
+        <div class="iphone-block">
+          <img src="pics/iscreen/0.jpg" alt="" title="PIXELPLEX" width="259" height="460" />
+        </div>        
+      </div>
+
+      <div class="col-xl-2 beacon"></div>
+      
+    </div>
+  </section>-->
+
+  <section class="container how-it-works"> 
+    <div class="row hiw-row">
+
+      <div class="col-xl-12 hiw-map">
+        <a v-on:mouseover="hiwBank = 'vis'"  v-on:mouseout="hiwBank = 'none'" class="hiw-bank" href="/"><img src="images/how-it-works/bank.png" alt="" title="" width="371" height="226" /></a>
+
+        <a v-on:mouseover="hiwParking = 'vis'"  v-on:mouseout="hiwParking = 'none'" class="hiw-parking" href="/"><img src="images/how-it-works/parking.png" alt="Parking" title="Parking" width="510" height="274" /></a>
+
+        <a v-on:mouseover="hiwStop = 'vis'"  v-on:mouseout="hiwStop = 'none'" class="hiw-stop" href="/"><img src="images/how-it-works/stop.png" alt="Stop" title="Stop" width="138" height="134" /></a>
+
+        <a v-on:mouseover="hiwCafe = 'vis'"  v-on:mouseout="hiwCafe = 'none'" class="hiw-cafe" href="/"><img src="images/how-it-works/cafe.png" alt="Cafe" title="Cafe" width="536" height="259" /></a>
+
+        <a v-on:mouseover="hiwShop = 'vis'"  v-on:mouseout="hiwShop = 'none'" class="hiw-shop" href="/"><img src="images/how-it-works/shop.png" alt="Shop" title="Shop" width="286" height="190" /></a>
+
+        <a v-on:mouseover="hiwMuseum = 'vis'"  v-on:mouseout="hiwMuseum = 'none'" class="hiw-museum" href="/"><img src="images/how-it-works/museum.png" alt="Museum" title="Museum" width="168" height="146" /></a>
+
+
+        <div class="iphone-block hiw-iphone">          
+          <img v-bind:id="hiwBank" class="none" src="pics/iscreen/1.jpg" alt="Bank" title="Bank" width="259" height="460" />
+          <img v-bind:id="hiwParking" class="none" src="pics/iscreen/2.jpg" alt="Parking" title="Parking" width="259" height="460" />
+          <img v-bind:id="hiwStop" class="none" src="pics/iscreen/3.jpg" alt="Stop" title="Stop" width="259" height="460" />
+          <img v-bind:id="hiwCafe" class="none" src="pics/iscreen/4.jpg" alt="Cafe" title="Cafe" width="259" height="460" />
+          <img v-bind:id="hiwShop" class="none" src="pics/iscreen/5.jpg" alt="Shop" title="Shop" width="259" height="460" />
+          <img v-bind:id="hiwMuseum" class="none" src="pics/iscreen/6.jpg" alt="Museum" title="Museum" width="259" height="460" />
+        </div>   
+      </div>
+      
+    </div>
+  </section>
+   
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+  
+  </script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+@font-face {
+  font-family: 'Gotham Pro Bold';
+  src: url("../fonts/GothamProBold/GothamPro-Bold.eot");
+  src: url("../fonts/GothamProBold/GothamPro-Bold.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/GothamProBold/GothamPro-Bold.woff") format("woff");
+  src: url("../fonts/GothamProBold/GothamPro-Bold.ttf") format("truetype");
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'Gotham Pro Regular';
+  src: url("../fonts/GothamPro/GothamPro.eot");
+  src: url("../fonts/GothamPro/GothamPro.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/GothamPro/GothamPro.woff") format("woff");
+  src: url("../fonts/GothamPro/GothamPro.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Gotham Pro Medium';
+  src: url("../fonts/GothamProMedium/GothamPro-Medium.eot");
+  src: url("../fonts/GothamProMedium/GothamPro-Medium.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/GothamProMedium/GothamPro-Medium.woff") format("woff");
+  src: url("../fonts/GothamProMedium/GothamPro-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Gotham Pro Black';
+  src: url("../fonts/GothamProBlack/GothamPro-Black.eot");
+  src: url("../fonts/GothamProBlack/GothamPro-Black.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/GothamProBlack/GothamPro-Black.woff") format("woff");
+  src: url("../fonts/GothamProBlack/GothamPro-Black.ttf") format("truetype");
+  font-weight: 900; }
+
+@font-face {
+  font-family: 'Gotham Pro Light';
+  src: url("../fonts/GothamProLight/GothamPro-Light.eot");
+  src: url("../fonts/GothamProLight/GothamPro-Light.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/GothamProLight/GothamPro-Light.woff") format("woff");
+  src: url("../fonts/GothamProLight/GothamPro-Light.ttf") format("truetype");
+  font-weight: 300; }
+
+html {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  min-height: 90px;
+  background-color: #f5f5f5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.navbar-brand {
+  margin-right: 170px !important; }
+
+.how-to-increase-zero {
+  background-color: #f5f5f5; }
+
+.iphone {
+  background-color: red; }
+
+.iphone-block {
+  width: 314px;
+  height: 654px;
+  background: url(../images/iphone.png) no-repeat;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.beacon {
+  height: 183px;
+  background: green url(../images/beacon.png) no-repeat;
+  background-position: center 30px; }
+
+.how-it-works img {
+  -webkit-transition: -webkit-filter .2s ease;
+  transition: -webkit-filter .2s ease;
+  -o-transition: filter .2s ease;
+  transition: filter .2s ease;
+  transition: filter .2s ease, -webkit-filter .2s ease; }
+  .how-it-works img:hover {
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%); }
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red; }
+
+#vis {
+  display: block !important; }
+
+#none {
+  display: none !important; }
+
+.none {
+  display: none; }
+
+.vis {
+  display: block; }
+
+.hiw-map {
+  height: 800px;
+  border: 1px solid red;
+  position: relative;
+  background: url(../images/how-it-works/road2.jpg) no-repeat;
+  background-position: -277px 41px;
+  -webkit-background-size: 100% 100%;
+          background-size: 100%; }
+
+.hiw-bank {
+  position: absolute;
+  top: 368px;
+  left: 0px;
+  opacity: 0;
+  -webkit-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease; }
+  .hiw-bank:hover {
+    opacity: 1; }
+  .hiw-bank img {
+    width: 84%;
+    height: 84%; }
+
+.hiw-parking {
+  position: absolute;
+  top: 458px;
+  left: 156px;
+  opacity: 0;
+  -webkit-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease; }
+  .hiw-parking:hover {
+    opacity: 1; }
+  .hiw-parking img {
+    width: 84%;
+    height: 84%; }
+
+.hiw-cafe {
+  position: absolute;
+  top: 341px;
+  left: 404px;
+  opacity: 0;
+  -webkit-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease; }
+  .hiw-cafe:hover {
+    opacity: 1; }
+  .hiw-cafe img {
+    width: 84%;
+    height: 84%; }
+
+.hiw-stop {
+  position: absolute;
+  top: 472px;
+  left: 631px;
+  opacity: 0;
+  -webkit-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+  z-index: 2; }
+  .hiw-stop:hover {
+    opacity: 1; }
+  .hiw-stop img {
+    width: 84%;
+    height: 84%; }
+
+.hiw-shop {
+  position: absolute;
+  top: 189px;
+  left: 267px;
+  opacity: 0;
+  -webkit-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+  z-index: 1; }
+  .hiw-shop:hover {
+    opacity: 1; }
+  .hiw-shop img {
+    width: 84%;
+    height: 84%; }
+
+.hiw-museum {
+  position: absolute;
+  top: 173px;
+  left: 179px;
+  opacity: 0;
+  -webkit-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+  z-index: 2; }
+  .hiw-museum:hover {
+    opacity: 1; }
+  .hiw-museum img {
+    width: 84%;
+    height: 84%; }
+
+.hiw-iphone {
+  position: absolute;
+  top: 55px;
+  right: 0;
+  z-index: 1; }

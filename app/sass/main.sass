@@ -1,0 +1,312 @@
+@font-face
+  font-family: 'Gotham Pro Bold'  
+  src: url('../fonts/GothamProBold/GothamPro-Bold.eot')
+  src: url('../fonts/GothamProBold/GothamPro-Bold.eot?#iefix') format('embedded-opentype')
+  src: url('../fonts/GothamProBold/GothamPro-Bold.woff') format('woff')
+  src: url('../fonts/GothamProBold/GothamPro-Bold.ttf') format('truetype')  
+  font-weight: 700
+ 
+@mixin GPB
+  font-family: 'Gotham Pro Bold', sans-serif
+
+@font-face
+  font-family: 'Gotham Pro Regular'  
+  src: url('../fonts/GothamPro/GothamPro.eot')
+  src: url('../fonts/GothamPro/GothamPro.eot?#iefix') format('embedded-opentype')
+  src: url('../fonts/GothamPro/GothamPro.woff') format('woff')
+  src: url('../fonts/GothamPro/GothamPro.ttf') format('truetype')  
+  font-weight: 400 
+
+@mixin GPR
+  font-family: 'Gotham Pro Regular', sans-serif
+
+@font-face
+  font-family: 'Gotham Pro Medium'  
+  src: url('../fonts/GothamProMedium/GothamPro-Medium.eot')
+  src: url('../fonts/GothamProMedium/GothamPro-Medium.eot?#iefix') format('embedded-opentype')
+  src: url('../fonts/GothamProMedium/GothamPro-Medium.woff') format('woff')
+  src: url('../fonts/GothamProMedium/GothamPro-Medium.ttf') format('truetype')  
+  font-weight: 500
+   
+@mixin GPM
+  font-family: 'Gotham Pro Medium', sans-serif
+
+@font-face
+  font-family: 'Gotham Pro Black'  
+  src: url('../fonts/GothamProBlack/GothamPro-Black.eot')
+  src: url('../fonts/GothamProBlack/GothamPro-Black.eot?#iefix') format('embedded-opentype')
+  src: url('../fonts/GothamProBlack/GothamPro-Black.woff') format('woff')
+  src: url('../fonts/GothamProBlack/GothamPro-Black.ttf') format('truetype')
+  font-weight: 900  
+   
+@mixin GPBlack
+  font-family: 'Gotham Pro Black', sans-serif
+
+@font-face
+  font-family: 'Gotham Pro Light'  
+  src: url('../fonts/GothamProLight/GothamPro-Light.eot')
+  src: url('../fonts/GothamProLight/GothamPro-Light.eot?#iefix') format('embedded-opentype')
+  src: url('../fonts/GothamProLight/GothamPro-Light.woff') format('woff')
+  src: url('../fonts/GothamProLight/GothamPro-Light.ttf') format('truetype')  
+  font-weight: 300
+   
+@mixin GPL
+  font-family: 'Gotham Pro Light', sans-serif
+
+
+
+html
+	font-size: 16px
+
+body
+  margin: 0
+  padding: 0  
+
+header
+  min-height: 90px  
+  background-color: #f5f5f5
+  display: flex 
+  flex-direction: row
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center  
+
+.navbar-brand
+  margin-right: 170px !important
+
+.how-to-increase-zero
+  background-color: #f5f5f5
+
+.iphone
+  background-color: red
+.iphone-block
+  width: 314px
+  height: 654px  
+  background: url(../images/iphone.png) no-repeat
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center
+.beacon
+  height: 183px  
+  background: green url(../images/beacon.png) no-repeat
+  background-position: center 30px
+
+
+.how-it-works
+  img
+    
+    transition: filter .2s ease
+    &:hover
+      filter: grayscale(0%) 
+
+.red
+  width: 100px
+  height: 100px
+  background-color: red
+#vis
+  display: block !important
+#none
+  display: none !important
+.none
+  display: none
+.vis
+  display: block
+
+
+.hiw-row
+  
+.hiw-map
+  height: 800px
+  border: 1px solid red
+  position: relative
+  background: url(../images/how-it-works/road2.jpg) no-repeat
+  
+  background-position: -277px 41px
+  background-size: 100%
+
+  
+
+.hiw-bank  
+  position: absolute
+  top: 368px
+  left: 0px
+  opacity: 0
+  transition: opacity .2s ease
+  &:hover
+    opacity: 1
+  img
+    width: 84%
+    height: 84%
+
+.hiw-parking
+  position: absolute
+  top: 458px
+  left: 156px
+  opacity: 0
+  transition: opacity .2s ease
+  &:hover
+    opacity: 1
+  img
+    width: 84%
+    height: 84%
+
+.hiw-cafe
+  position: absolute
+  top: 341px
+  left: 404px
+  opacity: 0
+  transition: opacity .2s ease
+  &:hover
+    opacity: 1
+  img
+    width: 84%
+    height: 84%
+
+.hiw-stop
+  position: absolute
+  top: 472px
+  left: 631px
+  opacity: 0
+  transition: opacity .2s ease
+  z-index: 2
+  &:hover
+    opacity: 1
+  img
+    width: 84%
+    height: 84%
+
+.hiw-shop
+  position: absolute
+  top: 189px
+  left: 267px
+  opacity: 0
+  transition: opacity .2s ease
+  z-index: 1
+  &:hover
+    opacity: 1
+  img
+    width: 84%
+    height: 84%
+
+.hiw-museum
+  position: absolute
+  top: 173px
+  left: 179px
+  opacity: 0
+  transition: opacity .2s ease
+  z-index: 2
+  &:hover
+    opacity: 1
+  img
+    width: 84%
+    height: 84%
+
+
+.hiw-iphone
+  position: absolute
+  top: 55px
+  right: 0
+  z-index: 1
+
+//DESKTOP
+@media only screen and (max-width : 1919px)
+  //
+  
+
+
+
+@media only screen and (max-width : 1199px)
+  // 
+  
+
+
+
+//TABLET
+@media only screen and (max-width : 1023px)
+  //  
+  
+    
+
+@media only screen and (max-width : 959px)
+  //Amazon Kindle Fire HDX 8.9
+    
+
+
+@media only screen and (max-width : 799px)
+  //Apple iPad Air 2, Apple iPad Mini 2  
+  
+
+
+//MOBILE
+@media only screen and (max-width : 767px)
+  //Apple iPhone 6 Plus
+
+  
+
+  
+
+@media only screen and (max-width : 735px)
+  //Google Nexus 6
+  
+
+
+
+@media only screen and (max-width : 731px)
+  //Apple iPhone 6s
+  
+
+
+
+@media only screen and (max-width : 666px)
+  //Google Nexus 5, Samsung Galaxy Note 3, Samsung Galaxy S5, Samsung Galaxy S7
+  
+
+
+
+@media only screen and (max-width : 639px)
+  //Google Nexus 7
+
+
+
+@media only screen and (max-width : 599px)
+  //Apple iPhone SE
+  
+
+
+@media only screen and (max-width : 567px)
+  //Nokia Lumia 520
+  
+
+
+@media only screen and (max-width : 532px)
+  //Apple iPhone 6 Plus
+
+  
+
+
+@media only screen and (max-width : 413px)
+  //Google Nexus 6
+  
+  
+
+
+@media only screen and (max-width : 411px)
+  //Google Nexus 4
+  
+
+@media only screen and (max-width : 383px)
+  //Apple iPhone 6s
+
+
+@media only screen and (max-width : 374px)
+  //Google Nexus 5, Samsung Galaxy Note 3, Samsung Galaxy S5, Samsung Galaxy S7
+  
+
+
+
+@media only screen and (max-width : 359px)
+  //Apple iPhone SE
+  
+
