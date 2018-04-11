@@ -101,13 +101,13 @@ header
 
 .how-it-works
 .hiw-title
+  margin: 60px 0 0 30px
   font-size: 2.375em
+  @include GPM
   text-transform: uppercase
+  color: #020102
 
-.red
-  width: 100px
-  height: 100px
-  background-color: red
+
 #vis
   display: block !important
 #none
@@ -120,98 +120,109 @@ header
 
   
 .hiw-map
-  height: 800px
-  
+  height: 910px  
   position: relative
-  background: url(../images/how-it-works/road2.jpg) no-repeat
-  
-  background-position: -320px 41px
-  background-size: 100%
-  border: 1px solid red
-
-  
+  background: url(../images/how-it-works/road2.jpg) no-repeat  
+  background-position: -276px 40px
+  background-size: 100%    
 
 .hiw-bank  
   position: absolute
   top: 368px
-  left: -43px
+  left: 0px
   opacity: 0
-  transition: opacity .2s ease
+  transition: opacity .3s ease
   &:hover
     opacity: 1
   img
-    width: 84%
-    height: 84%
-
+    width: 85%
+    height: 85%
 .hiw-parking
   position: absolute
   top: 458px
-  left: 113px
+  left: 156px
   opacity: 0
-  transition: opacity .2s ease
+  transition: opacity .3s ease
   &:hover
     opacity: 1
   img
-    width: 84%
-    height: 84%
-
+    width: 85%
+    height: 85%
 .hiw-cafe
   position: absolute
-  top: 341px
-  left: 361px
+  top: 340px
+  left: 404px
   opacity: 0
-  transition: opacity .2s ease
+  transition: opacity .3s ease
   &:hover
     opacity: 1
   img
-    width: 84%
-    height: 84%
-
+    width: 85%
+    height: 85%
 .hiw-stop
   position: absolute
   top: 472px
-  left: 588px
+  left: 633px
   opacity: 0
-  transition: opacity .2s ease
+  transition: opacity .3s ease
   z-index: 2
   &:hover
     opacity: 1
   img
-    width: 84%
-    height: 84%
-
+    width: 85%
+    height: 85%
 .hiw-shop
   position: absolute
-  top: 189px
-  left: 224px
+  top: 188px
+  left: 267px
   opacity: 0
-  transition: opacity .2s ease
+  transition: opacity .3s ease
   z-index: 1
   &:hover
     opacity: 1
   img
-    width: 84%
-    height: 84%
-
+    width: 85%
+    height: 85%
 .hiw-museum
   position: absolute
-  top: 173px
-  left: 136px
+  top: 171px
+  left: 181px
   opacity: 0
-  transition: opacity .2s ease
+  transition: opacity .3s ease
   z-index: 2
   &:hover
     opacity: 1
   img
-    width: 84%
-    height: 84%
-
+    width: 85%
+    height: 85%
 
 .hiw-iphone
   position: absolute
   top: 55px
   right: 0
   z-index: 1
+
+.hiw-but
+  width: 277px
+  height: 78px
+  position: absolute
+  right: 20px
+  bottom: 70px
+  background-color: #f3379d
+  border-radius: 3px 
+  display: flex
+  flex-direction: row  
+  align-items: center
+  justify-content: center
+  font-size: 1.4375em
+  text-align: center
+  text-decoration: none !important
+  color: #fff !important
+  font-family: 'Ubuntu', sans-serif
+  transition: opacity 0.3s ease
+  &:hover
+    opacity: 0.8
+
 
 //DESKTOP
 @media only screen and (max-width : 1919px)
@@ -244,6 +255,7 @@ header
 
 //MOBILE
 @media only screen and (max-width : 767px)
+  
   //Apple iPhone 6 Plus
 
   
